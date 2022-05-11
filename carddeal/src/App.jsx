@@ -82,7 +82,7 @@ const App = () => {
                         <h1>{playerObj.name}</h1>
                         <ul>
                             {playerObj.hand.map((cardObj) => (
-                                <li>{cardObj.val} of {cardObj.suit}</li>
+                                <li>{`${cardObj.val} of ${cardObj.suit}`}</li>
                             ))}
                         </ul>
                     </section>
